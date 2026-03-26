@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	w, h := ebiten.ScreenSizeInFullscreen()
+	w, h := ebiten.Monitor().Size()
 	h = h - 35
 	ebiten.SetWindowSize(w, h)
 	ebiten.SetWindowTitle("Bounce Ball")
