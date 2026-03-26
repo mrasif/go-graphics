@@ -8,7 +8,7 @@ import (
 
 func main() {
 	ebiten.SetWindowSize(640, 480)
-	ebiten.SetWindowTitle("Hello World Custom")
+	ebiten.SetWindowTitle("Simple Shapes")
 	app := &App{}
 	if err := ebiten.RunGame(app); err != nil {
 		log.Fatal(err)
